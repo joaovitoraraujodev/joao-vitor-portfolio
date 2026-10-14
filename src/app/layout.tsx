@@ -3,6 +3,7 @@ import './globals.css';
 import SiteMotion from '@/components/SiteMotion';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://joao-vitor-portfolio-red.vercel.app'),
   title: { default: 'João Vitor Araújo | Desenvolvedor Full Stack', template: '%s | João Vitor Araújo' },
   description: 'João Vitor Araújo desenvolve sites, sistemas web e aplicativos. Conheça o MorenaDress, aplicativo Android de gestão de estoque e vendas.',
   applicationName: 'Portfólio João Vitor Araújo',

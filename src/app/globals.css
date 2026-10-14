@@ -58,3 +58,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid #38bdf8; outline-offs
 }
 @media (max-width: 380px) { .header-cta { font-size: 10px; } .hero-actions .btn { width: 100%; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Capturas reais do MorenaDress no destaque */
+.project-visual-real{isolation:isolate;min-height:525px}.project-phones{position:relative;width:min(100%,490px);height:435px;z-index:1}.project-phone{position:absolute;width:185px;top:38px;filter:drop-shadow(0 22px 24px rgba(0,0,0,.42))}.project-phone .md-phone{width:100%;max-width:none}.project-phone-back{left:4%;transform:rotate(-13deg) scale(.88);z-index:1}.project-phone-front{left:50%;transform:translateX(-50%);z-index:3}.project-phone-side{right:4%;transform:rotate(13deg) scale(.88);z-index:2}.project-real-label{position:absolute;bottom:22px;left:0;right:0;text-align:center;font-size:10px;letter-spacing:2px;font-weight:700;color:#b7d9ee}@media(max-width:620px){.project-visual-real{min-height:425px}.project-phones{height:350px;width:100%}.project-phone{width:148px;top:28px}.project-phone-back{left:0}.project-phone-side{right:0}.project-real-label{bottom:15px;font-size:9px}}@media(max-width:380px){.project-phone{width:132px}}
